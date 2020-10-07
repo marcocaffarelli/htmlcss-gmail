@@ -1,0 +1,20 @@
+body{
+  box-sizing: border-box;
+  background-image:url(../img/sfondo.jpg);
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.intestazione{
+  border-bottom: 2px solid white;
+}
+
+#glogo{
+  padding: 8px;
+
+}
+.titolo{
+  display: inline-block;
+  color: white;
+  vertical-align:top;
+  font-weight: lighter;
+}
