@@ -18,3 +18,57 @@ body{
   vertical-align:top;
   font-weight: lighter;
 }
+
+.ricerca{
+  margin-top: 10px;
+}
+
+#vai{
+  border-radius: 15%;
+  border-color: rgba(0, 0, 0, 0);
+}
+.segnale_messaggi{
+  font-size: 32px;
+  color: white;
+}
+
+#trenta{
+  background-color: orange;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.corpo_top{
+  border-bottom: 2px solid white;
+}
+
+.testo_email{
+  background-color: lightgrey;
+  color: black;
+  margin-top: 10px;
+  font-weight: bold;
+
+}
+
+.bordo{
+  padding: 1px;
+  border: 1px solid black;
+}
+
+.testo_grigio{
+  color: grey;
+}
+
+#bordo_bianco{
+  background-color: white
+}
+
+hr{
+  color: white;
+  background-color: white;
+  border-top: none;
+  height: 1px;
+}

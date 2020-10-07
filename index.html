@@ -11,13 +11,48 @@
     <header>
       <!-- intestazione -->
       <div class="intestazione">
-        <img src="img/gmail_logo.png" alt="logo_gmail"id="glogo">
+        <img src="img/gmail_logo.png" alt="logo_gmail" id="glogo">
         <h1 class="titolo">Gmail</h1>
       </div>
       <!-- /intestazione -->
     </header>
 
     <main>
+      <!-- corpo top -->
+      <div class="corpo_top">
+        <!-- form di ricerca -->
+        <form class="ricerca" action="index.html" method="post">
+          <input type="text" name="ricerca" placeholder="search">
+          <input type="submit" name="vai" value="VAI" id="vai">
+        </form>
+        <!-- /form di ricerca -->
+        <p class="segnale_messaggi">You have <span id="trenta">30</span> unread</p>
+      </div>
+      <!-- /corpo top -->
+
+      <!-- corpo bottom -->
+      <div class="testo_email">
+        <!-- Contenuto email -->
+        <div class="bordo">
+          <input type="checkbox" name="checkbox" id="checkbox_primo">
+          <label class="oggetto_mail" for="checkbox_primo">&#9733; Oggetto della email <span class="testo_grigio">- testo della email...</span></label>
+        </div>
+        <div class="bordo" id="bordo_bianco">
+          <input type="checkbox" name="checkbox" id="checkbox_secondo">
+          <label class="oggetto_mail" for="checkbox_secondo">&#9733; Oggetto della email <span class="testo_grigio">- testo della email...</span></label>
+        </div>
+        <div class="bordo">
+          <input type="checkbox" name="checkbox" id="checkbox_terzo">
+          <label class="oggetto_mail" for="checkbox_terzo">&#9733; Oggetto della email <span class="testo_grigio">- testo della email...</span></label>
+        </div>
+        <div class="bordo">
+          <input type="checkbox" name="checkbox" id="checkbox_quarto">
+          <label class="oggetto_mail" for="checkbox_quarto">&#9733; Oggetto della email <span class="testo_grigio">- testo della email...</span></label>
+        </div>
+        <!-- /Contenuto email -->
+      </div>
+      <!-- /corpo bottom -->
+      <hr>
 
     </main>
 
