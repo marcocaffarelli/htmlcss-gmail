@@ -72,3 +72,13 @@ hr{
   border-top: none;
   height: 1px;
 }
+
+footer{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#ultimo{
+  font-size: 32px;
+}
